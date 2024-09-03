@@ -1,0 +1,364 @@
+html,body {font-family: Arial, Helvetica,comic-sans, Sans-serif;
+  margin:0;
+  padding: 0;
+	color: black;
+}
+.hder{
+    background-color: #002DB7;
+    margin: 0;
+    /* text-align: center; */
+    padding: 8px 5px 5px 5px;
+    color: white;
+    gap:2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left; 
+}
+.hderlogo{
+    width:60px;
+    height:60px;
+    border: none;
+    text-align: left;
+}
+.hderlogo img{
+    width: 60px;
+    height: 60px;
+}
+.nvbr{
+    text-align: center;
+    color: blue;
+    padding: 3px;
+}
+.nvbr a{
+    text-decoration: none;
+}
+.nvbr a:hover{
+    color: green;
+}
+.nvnr a.active{
+    color: red;
+    text-decoration: underline;
+}
+#logibtn{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border:2px solid black;
+}
+.struct{
+    width: 100%;
+}
+.struct,ul,li{
+    padding-top:10px;
+}
+.struct h3,p{
+    text-align: center;
+}
+.inbdy{
+	color:black;
+	width: 100%;
+	margin: 0;
+}
+.inbdy h3{
+    text-align:center;
+    padding:5px;
+} 
+.imgs{
+    text-align:center;
+    width:100%;
+}
+#logibtn{
+    margin:0 auto;
+    text-align:center;
+}
+ 
+       #h2{
+           text-align:center;
+           border-bottom:1px solid gray;
+           width:80%;
+           margin:0 auto;
+           margin-bottom:5px;
+       }
+       .proft{
+           padding:10px;
+       }
+       .creds,.updates{
+           background-color:white;
+           margin-right: 20px;
+           border-radius:6px;
+           border-bottom-right-radius:30px;
+           padding-bottom:15px;
+           min-height:200px;
+           min-height:500px;
+           float:left;
+           width:30%;
+           border-right:2px solid black;
+       }
+       .creds{
+           margin:0 auto;
+           text-align: center;
+       }
+       #creds{
+           border-top:1px solid gray;
+           margin:0 auto;
+           width:80%;
+           padding-top:10px;
+       }
+ 
+       #prfpic{
+           width:70%;
+           margin:0 auto;
+           text-align: center;
+       }
+       #prfpic img{
+           border-radius:50%;
+           width:150px;
+           height:150px;
+       }
+footer{
+	  width:100%;
+    border-radius:5px 5px 0px 0px;
+    position:;
+    top: 100;
+	  bottom:0;
+	  display:flex;
+	  flex-wrap:wrap; 
+	  background:linear-gradient(to top,#00093c,#2d0b00);
+   	align-items:flex-start;
+   	float:left;
+}
+footer div{
+	padding:20px;
+}
+.paymnts{
+    width: 50%;
+    margin:0 auto;
+}
+.paymnts img{
+    width: 50px;
+    height: 50px;
+}
+h4{
+    text-align: center;
+}
+.socials{
+    text-align: center;
+}
+#topbtn{
+	display:none;
+	width: 50px;
+	position:sticky;
+	bottom:60px;
+	background-color: lightgreen;
+	border:1px solid black;
+	border-radius: 50%;
+	font-size: 2em;
+	outline:none;
+	cursor:pointer;
+}
+#topbtn:hover{
+	background-color:#555;
+}
+.reg{
+	text-align:center;
+	width: 100%;
+	/* min-height:500px; */
+}
+
+/* Full-width input fields */
+ select, input[type=text], input[type=password] , input[type=email] ,input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+#modalbtn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius:6px;
+}
+.regs{
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+}
+#regs{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+ /*margin: 0 auto;*/
+  border: none;
+  cursor: pointer;
+  border-radius:6px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/*cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  border-radius:6px;
+  background-color: #f44336;
+  border: none;
+}
+
+/* image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+  
+}
+
+/* close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+/* Zoom*/
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+#profbtns{
+    text-align:center;
+    margin: 0 auto;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav ,a {font-size: 18px;}
+
+}
+@media screen and (max-width:450px){
+    .credentials {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    color:black;
+}
+.hder{
+    background-color: blue;
+    margin: 0;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    color: white;
+    gap:2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.hderlogo{
+    width:60px;
+    height:60px;
+}
+  .creds,.updates{
+           width:100%;
+           border-bottom:2px solid black;
+           display:flex;          
+           flex-direction:column; 
+           margin-bottom:10px;    
+       }
+      img{
+           /* border-radius:50%; */
+           width:100%;
+           /* height:250px; */
+       }
+
+footer{
+	  width:100%;
+	  position:;
+    border-radius:5px 5px 0px 0px;
+	  bottom:0;
+	  display:inline-block;
+	  background:linear-gradient(to top,#00093c,#2d0b00);
+
+}
+}
+/* styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  div{
+  	width:auto;
+  }
+  
+}
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="all.js"></script>
+<script src="https://kit.fontawesome.com/c283882e76.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./astyles.css">
+<title>loginregi</title>
+
+</head>
+<body>
+     <div class="hder">
+        
+        <div class="hderlogo"><img src="imgs/itajulogo.jpg" alt="jpg"></div><p>INTERNATIONAL TOURISM ASSOCIATION OF JOOUST</p>
+       
+    </div>
+  
+      <div class="memstats">
+            <h2 style="text-align: center;">Membership</h2>
+            <p>Membership information</p>
+            <p>Patner registration Kes. 2000</p>
+            <p>Staff registration Kes. 500</p>
+            <p>Member registration Kes. 100</p>         
+      </div>
+<!-- for registration -->
+<div id="id02" class="modal">
+      <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+     
+      <label for="phoneno"><b>Phone</b></label>
+      <input type="tel" name="phoneno" id="" placeholder="" required>
+      <label for="memtype"><b>Membership Type :</b></label>
+      <select >
+          <option value="memreg">Member</option>
+          <option value="staffreg">Staff</option>
+          <option value="partreg">Partner</option>
+      </select>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Confirm Password" name="psw" required>
+        
+      <button id="modalbtn" type="submit">Register</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button id="cancelbtn2"type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+    <div class="regs"><button id="regs" onclick="document.getElementById('id02').style.display='inline-block' "style="">Register</button></div>
+    <div class="paymnts">
+        <p>Available payment options:</p>
+     <p style="text-align:center;"><img src="imgs/mpesap.webp" alt="webp"></p>
+ </div>
+    <footer >
+        <div style="color:white;">
+        	<h4>Address</h4>
+            <p>210 - 40106 Bondo</p>
+            <p>Along Bondo - Usenge road</p> 
+        </div>
+        <div style="color:white;"> 
+        	<h4>Email us</h4>
+     
+        	<p><a href="mailto:jooustourismclub@gmail.com"><input type="email" placeholder="jooustourismclub@gmail.com"></a></p>
+        	
+        </div>
+        <div style="Color:white;">
+          <h4>Call us</h4>
+        <p>+254 708 508407</p>
+        	<p>+254 720 811685</p>
+        </div>
+       <div class="socials"> 
+           <p style="color:white;">Our socials</p><div>
+            <a href="https://www.facebook.com/profile.php?id=61553591000850"><i class="fa-brands fa-facebook fa-bounce fa-2xl"></i></a>
+            <a href="https://whatsapp.com/channel/0029VaYvPBfBqbrC1aLOtU2n"><i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #63E6BE;"></i></a>
+            <a href="https://www.instagram.com/itaju23?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram fa-beat-fade fa-2xl" style="color: #612251;"></i></a>
+        </div></div>
+     <div class="vtly" style="background-color:#00093c; padding:10px; color :white; bottom:0;">
+        <p>VtLy &copy;</p>
+        <p>Let's play</p>
+    </div>
+    </footer>
+</body>
+</html>

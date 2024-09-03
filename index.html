@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="all.js"></script>
+    <script src="https://kit.fontawesome.com/c283882e76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./astyles.css">
+    <title>itajuhomepage</title>
+</head>
+
+<body>
+    <div class="hder">
+        
+        <div class="hderlogo"><img src="imgs/itajulogo.jpg" alt="jpg"></div><p>INTERNATIONAL TOURISM ASSOCIATION OF JOOUST</p>
+       
+    </div>
+     
+    <div class="nvbr">
+        <a href="index.html">Structure</a> |
+        <a href="services.html">Services ,Projects and Trips</a> |
+        <a href="regi.html">Join us</a>     
+    </div> 
+    <div>
+        <p><button id="logibtn" onclick="document.getElementById('id01').style.display='inline-block' ">Log in</button>
+</p>        <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Membership Number</b></label>
+      <input type="text" placeholder="Enter Membership Number" name="memnum" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" id="modalbtn">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button id="" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+ 
+</div>
+    </div>
+    
+    <div class="struct">
+        <h3>ASSOCIATION STRUCTURE</h3>
+
+        <ul>         
+            <li>Dean of School of Business & Economics</li> 
+            <li>Chairperson Tourism and Hospitality Management Faculty</li>
+        </ul>
+            <p>CLUB EXECUTIVES</p>
+            <p>OFFICE OF THE PRESIDENT</p>
+            <ul>
+                <li>President</li>
+                <li>Deputy President</li>
+                <li>Presidential Advisor</li>
+            </ul>
+            <p>SECRETARIAT</p>
+         
+                <div class="imgs"><p>Secretary General</p>
+                    <img src="imgs/secgen.jpg" alt="jpg/jpeg">
+                    </div>
+                <div class="imgs"><p>Secretary</p><img src="imgs/secre.jpg" alt="jpg">
+                
+                </div>
+                <div class="imgs"><p>Finance Secretary</p><img src="imgs/treasurefin.jpg" alt="jpg"></div>
+                <div class="imgs"><p>Assistant Secretary</p><img src="imgs/assisec.jpg" alt="jpg"></div>
+         
+            <p>COMMUNICATION DESK AND MARKETING</p>
+            
+                <div class="imgs"><p>Communication Director</p>
+                    <img src="imgs/commdir.jpg" alt=""></div>
+            <ul><li>Assistant Communication Director</li>
+                <li>Marketing Officer</li>
+            </ul>
+            <p>PROJECT DEPARTMENT</p>
+            <ul>              
+                <li>Project Director</li>
+                <li>Deputy Project Director</li>
+            </ul>
+            <p>CLASS DIRECTORS</p>
+            <ul>          
+                <li>All Class Representatives</li>            
+            </ul>
+        <p>OUR PARTNERS</p>
+        <ol>
+            <li>University Management</li>
+            <li>Sustainable Travel and Tourism Africa</li>
+            <li>California Tours and Travel</li>
+            <li>Domestic Tourism Association of Kenya</li>
+        </ol>
+       
+    </div>
+    <button onclick="topFn()" id="topbtn" title="to top">&uparrow;</button>
+    <footer >
+        <div style="color:white;">
+        	<h4>Address</h4>
+            <p>210 - 40106 Bondo</p>
+            <p>Along Bondo - Usenge road</p> 
+        </div>
+        <div style="color:white;"> 
+        	<h4>Email us</h4>
+     
+        	<p><a href="mailto:jooustourismclub@gmail.com"><input type="email" placeholder="jooustourismclub@gmail.com"></a></p>
+        	
+        </div>
+        <div style="Color:white;">
+          <h4>Call us</h4>
+        <p>+254 708 508407</p>
+        	<p>+254 720 811685</p>
+        </div>
+       <div class="socials"> 
+           <p style="color:white;">Our socials</p><div>
+            <a href="https://www.facebook.com/profile.php?id=61553591000850"><i class="fa-brands fa-facebook fa-bounce fa-2xl"></i></a>
+            <a href="https://whatsapp.com/channel/0029VaYvPBfBqbrC1aLOtU2n"><i class="fa-brands fa-whatsapp fa-beat fa-2xl" style="color: #63E6BE;"></i></a>
+            <a href="https://www.instagram.com/itaju23?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram fa-beat-fade fa-2xl" style="color: #612251;"></i></a>
+        </div></div>
+    </footer>
+    <div  class="vtly" style="background-color:#00093c; padding:10px; color :white;">
+        <p>VtLy &copy;</p>
+        <p>Let's play</p>
+    </div>
+</body>
+</html>
+
